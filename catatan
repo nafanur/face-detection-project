@@ -1,5 +1,4 @@
 # face-detection-project
-## 4. Dari hasil nomor 3, algoritme apa yang lebih akurat? Apakah Haarcascade atau HOG?
 KESIMPULAN ALGORITMA:
 - Haarcascade: mendeteksi 10 wajah namun perlu menyesuaikan parameter scaleFactor, minNeighbors, minSize, klo tidak bisa false positive (bukan mendeteksi wajah / sasaran).
 - HOG: mendeteksi 10 wajah, namun perlu menyesuaikan parameter unsample. Lebih stabil, lebih jarang false positive, cocok untuk wajah frontal.
