@@ -1,4 +1,6 @@
 # face-detection-project
+
+https://colab.research.google.com/drive/1CuZSizCEJPqvGTV73KijGZF25z1akPvU?usp=sharing 
 KESIMPULAN ALGORITMA:
 - Haarcascade: mendeteksi 10 wajah namun perlu menyesuaikan parameter scaleFactor, minNeighbors, minSize, klo tidak bisa false positive (bukan mendeteksi wajah / sasaran).
 - HOG: mendeteksi 10 wajah, namun perlu menyesuaikan parameter unsample. Lebih stabil, lebih jarang false positive, cocok untuk wajah frontal.
